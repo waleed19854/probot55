@@ -2864,7 +2864,7 @@ client.on("message", (message) => {
 const sWlc = {}
 const premium = ['389090790984515594']
 client.on('message', message => {
-var prefix = "!!";
+var prefix = "S";
 if(message.channel.type === "dm") return;
 if(message.author.bot) return;
   if(!sWlc[message.guild.id]) sWlc[message.guild.id] = {
@@ -2970,7 +2970,7 @@ client.on("guildMemberAdd", member => {
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = [' !!help ','Malicious™ | Server ' ];
+    var setGame = [' !!help ','By DAMN LIFE |[SG]SYSTEM ' ];
     var i = -1;
     var j = 0;
     setInterval(function (){
